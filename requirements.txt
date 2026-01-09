@@ -1,0 +1,6 @@
+# Binance Futures Trading Bot - Dependencies
+# Python 3.8+ required
+
+# Binance API client
+python-binance>=1.0.19
+

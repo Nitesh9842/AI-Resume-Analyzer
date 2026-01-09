@@ -1,0 +1,18 @@
+2026-01-09 12:49:14 | INFO     | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 12:49:14 | INFO     | TradingBot | API REQUEST  | GET /fapi/v1/ping | Params: None
+2026-01-09 12:49:15 | INFO     | TradingBot | API RESPONSE | Status: SUCCESS | Response: {'status': 'connected'}
+2026-01-09 12:49:15 | INFO     | TradingBot | Trading Bot initialized - Testnet: True
+2026-01-09 12:49:33 | INFO     | TradingBot | API REQUEST  | GET /fapi/v1/ticker/price?symbol=T | Params: None
+2026-01-09 12:49:33 | ERROR    | TradingBot | API ERROR    | Code: -1121 | Message: Invalid symbol.
+2026-01-09 12:49:56 | INFO     | TradingBot | API REQUEST  | GET /fapi/v1/exchangeInfo | Params: None
+2026-01-09 12:49:57 | WARNING  | TradingBot | Could not validate quantity: Symbol T not found
+2026-01-09 12:49:57 | INFO     | TradingBot | API REQUEST  | GET /fapi/v1/exchangeInfo | Params: None
+2026-01-09 12:49:58 | WARNING  | TradingBot | Could not validate price: Symbol T not found
+2026-01-09 12:49:58 | INFO     | TradingBot | API REQUEST  | GET /fapi/v1/exchangeInfo | Params: None
+2026-01-09 12:49:59 | WARNING  | TradingBot | Could not validate price: Symbol T not found
+2026-01-09 12:49:59 | INFO     | TradingBot | ORDER        | STOP_LIMIT BUY 5.0 T @ 3.0
+2026-01-09 12:49:59 | INFO     | TradingBot | Stop Price: 7.0
+2026-01-09 12:49:59 | INFO     | TradingBot | API REQUEST  | POST /fapi/v1/order | Params: {'symbol': 'T', 'side': 'BUY', 'type': 'STOP', 'quantity': 5.0, 'price': 3.0, 'stopPrice': 7.0, 'timeInForce': 'GTC', 'reduceOnly': True}
+2026-01-09 12:49:59 | ERROR    | TradingBot | API ERROR    | Code: -2014 | Message: API-key format invalid.
+2026-01-09 12:56:34 | INFO     | TradingBot | API REQUEST  | GET /fapi/v2/balance | Params: None
+2026-01-09 12:56:35 | ERROR    | TradingBot | API ERROR    | Code: -2014 | Message: API-key format invalid.
